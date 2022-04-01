@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: white;
+  font-family: 'Merriweather', serif;
+}
+/* header start here*/
+
+header {
+  display: flex;
+  position: relative;
+  display: fixed;
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #217ceb;
+}
+#logo {
+  position: relative;
+  left: 10px;
+  top: 1px;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 100px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  background-color: #217ceb;
+
+}
+header ul li {
+  display: flex;
+  margin: 10px 20px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  background-color: #217ceb;
+}
+header ul li a {
+  text-decoration: none;
+  background-color: #217ceb;
+  color: white;
+}
+header ul li :hover {
+  border-radius: 7px;
+  color: #217ceb;
+  background-color: white;
+}
+#search {
+  width: 200px;
+  float: right;
+  position: relative;
+  font-style: italic;
+  font-size: 0.9rem;
+  border-radius: 9px;
+}
+
+/* header ends here */
+
+/* About Section start */
+#about{
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  height: 600px;
+  margin-right: 15px;
+  padding: 10px;
+}
+#about #myimage{
+  position: relative;
+  border-radius: 7px;
+  width: 500px;
+  height: 589px;
+ 
+}
+#about #para{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 9px;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.8em;
+}
+#about #para a{
+  color:#217ceb ;
+  background-color: white ;
+}
+#about #myimage:hover{
+  box-shadow: 10px 10px 20px #1a46d6;
+}
+#about #para:hover{
+  box-shadow: 10px 10px 20px green;
+}
+
+/* about section ends */
+/* footer Start */
+#hfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+#hfooter a{
+  text-decoration: none;
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 0.8em;
+  cursor: pointer;
+}
+#hfooter a:hover{
+  
+  color: #217ceb;
+  background: white;
+  border-radius: 9px;
+  box-shadow: 30px 30px 30px #1a46d6;
+}
+/* footer Ends */
